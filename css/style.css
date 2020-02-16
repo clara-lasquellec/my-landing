@@ -1,0 +1,25 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Fira+Sans+Condensed");
+
+/* Importing all components file */
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colours */
+body {
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 18px;
+	background-color: rgb(240,240,240);
+	margin: 0;
+}
+h1, h2, h3 {
+	font-family: Josefin Sans, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
